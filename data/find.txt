@@ -1,4 +1,10 @@
-[[COMMONS:Welcome|Test]] 1
-[[COMMONS:Welcome|Test]] 2
-[[COMMONS:Welcome|Test]] 3
-[[COMMONS:Welcome|Test]] 4
+Improve, clean up, or color images at the [[Commons:Graphic_Lab|Graphic Lab]]
+[[Category:Categories_requiring_diffusion|Moveing files into relevant subcategories]]
+[[Commons:Featured picture candidates|Nominate or vote]] for Featured Pictures
+[[Commons:QI|Nominate or vote]] for Quality images
+[[Category:Media_needing_categories|Add]] files to categoryes
+[[COM:Vandalism|Find and revert vandalism]] ([[Commons:Counter_Vandalism_Unit|Counter Vandalism Unit]])
+Hel with [[Special:LanguageStats|translating]] pages
+Help with the identification of [[Category:Unidentified_subjects|unidentified subjects]]
+Create [[Special:WantedCategories|wanted categories]]
+[[Special:UploadWizard|Upload your photographs]]
