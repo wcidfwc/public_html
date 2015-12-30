@@ -8,4 +8,4 @@ Not officially affiliated with the Wikimedia Foundation (they have no corntol ov
 
 It is "in development" and you are invited to contribute :-)
 
-By contribiuting your release your codes in the public domain.
+By contributing you release your codes in the public domain.
