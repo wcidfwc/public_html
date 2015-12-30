@@ -1,4 +1,3 @@
-# public_html
 What can I do for Wikimedia Commons?
 This is the content of whatcanidoforwikimediacommons.org
 
