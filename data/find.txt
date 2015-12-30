@@ -1,0 +1,4 @@
+[[COMMONS:Welcome|Test]] 1
+[[COMMONS:Welcome|Test]] 2
+[[COMMONS:Welcome|Test]] 3
+[[COMMONS:Welcome|Test]] 4
