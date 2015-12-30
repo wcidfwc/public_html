@@ -37,21 +37,21 @@ require('func.php');
           <p>If you're a good photographer or designer don't histate to upload your files (Wikimedia Commons only accepts free content).</p>
 	  <br>
           <h4>Editing</h4>
-          <p>Add</p>
+          <p>Help with fixing broken pages and categorising files.</p>
 	  <br>
           <h4>Maintenance</h4>
-          <p>Add</p>
+          <p>There are a number of maintenance backlogs on commons which requiring attention.</p>
         </div>
 
         <div class="col-lg-6">
           <h4>Translating</h4>
           <p>Wikimedia Commons is a <a href="https://commons.wikimedia.org/wiki/Commons:Language_policy" title="Commons:Language policy">multilingual project</a>. You can help with <a href="https://commons.wikimedia.org/wiki/Special:LanguageStats">translating pages</a> into a language other than English.</p>
 	  <br>
-          <h4>Contests</h4>
-          <p>add</p>
+          <h4>????</h4>
+          <p>Nominate your Photos at the </p>
 	  <br>
           <h4>Coding</h4>
-          <p>Add</p>
+          <p>Help writing user scripts and tools.</p>
         </div>
       </div>
 	<br>
