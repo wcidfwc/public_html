@@ -8,6 +8,7 @@ require('func.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>What can I do for Wikimedia Commons?</title>
+    <meta name="robots" content="nofollow" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
       body {
@@ -23,7 +24,7 @@ require('func.php');
   <body>
 
     <div class="container">
-
+      <div class="bs-callout bs-callout-danger" id="callout-input-needs-type"> <h4>This is a draft!</h4> <p>This page is a work in progress page.</p> </div>
       <div class="jumbotron" style = "text-align:center;">
 	<p style="float:left;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/90px-Commons-logo.svg.png" alt="Wikimedia Commons community logo"></p>
 	<h2 style="margin-top:30px;">What can I do for Wikimedia Commons?</h2>
