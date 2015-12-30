@@ -40,4 +40,13 @@ function start($name) {
   <body>
     <div class=\"container\">";
 }
+
+function counter() {
+$fl = ( "counter.txt" );
+$wx = file( $fl );
+$wx[0] ++;
+$fp = fopen( $fl , "w" );
+fputs( $fp , "$wx[0]" );
+fclose( $fp );
+}
 ?>

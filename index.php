@@ -28,7 +28,7 @@ require('func.php');
 	<p style="float:left;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/90px-Commons-logo.svg.png" alt="Wikimedia Commons community logo"></p>
 	<h2 style="margin-top:30px;">What can I do for Wikimedia Commons?</h2>
 	Uplaoding, editing, translating, reviewing files, create graphics, ... | <a href="https://commons.wikimedia.org/wiki/Commons:Welcome">What is Wikimedia Commons?</a><br><br>
-        <p><a class="btn btn-lg btn-success" href="find.php" role="button">Find me a project!</a></p>
+        <p><a class="btn btn-lg btn-success" href="find.php?new=yes" role="button">Find me a project!</a></p>
       </div>
 
       <div class="row">
@@ -56,7 +56,8 @@ require('func.php');
       </div>
 	<br>
       <footer class="footer">
-        <small><hr><p><a href="https://github.com/">View source / Edit</a> | <a href="disclaimer.php">Disclaimer & Privacy</a> | Not officially affiliated with the Wikimedia Foundation</p></small>
+        <small><hr><p><a href="https://github.com/wcidfwc/public_html">View source / Edit</a> | <a href="disclaimer.php">Disclaimer & Privacy</a> | Not officially affiliated with the 
+Wikimedia Foundation</p></small>
       </footer>
     </div>
   </body>
