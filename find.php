@@ -13,8 +13,7 @@ start("What can I do for Wikimedia Commons?");
 	<h2><?php par() ?></h2>
 	<br><br>
         <p>
-          <a class="btn btn-lg btn-primary" href="find.php?nextid=<?php echo rand(111, 99999); ?>" 
-role="button"><?php nb() ?> &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="find.php?nextid=<?php echo rand(111, 99999); ?>" role="button"><?php nb() ?> &raquo;</a>
         </p>
       </div>
 	<small><a href="index.php">home</a> | <a href="javascript:history.back()">back</a></small>

@@ -12,7 +12,7 @@ $find = file('data/find.txt');
 shuffle($find);
 $text = $find[0];
 $wiki = array("[[", "|", "]]");
-$html = array("<a herf = \"https://commons.wikimedia.org/wiki/", "\">", "</a>");
+$html = array("<a href = \"https://commons.wikimedia.org/wiki/", "\">", "</a>");
 $rand = str_replace($wiki, $html, $text);
 echo "$rand";
 }
