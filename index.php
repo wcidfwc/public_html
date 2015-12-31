@@ -26,7 +26,7 @@ require('func.php');
     <div class="container">
       <div class="bs-callout bs-callout-danger" id="callout-input-needs-type"> <h4>This is a draft!</h4> <p>This page is a work in progress page.</p> </div>
       <div class="jumbotron" style = "text-align:center;">
-	<p style="float:left;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/90px-Commons-logo.svg.png" alt="Wikimedia Commons community logo"></p>
+	<p style="float:left;"><img src="pdata/Commons-logo.png" alt="Wikimedia Commons community logo"></p>
 	<h2 style="margin-top:30px;">What can I do for Wikimedia Commons?</h2>
 	Uplaoding, editing, translating, reviewing files, create graphics, ... | <a href="https://commons.wikimedia.org/wiki/Commons:Welcome">What is Wikimedia Commons?</a><br><br>
         <p><a class="btn btn-lg btn-success" href="find.php?new=yes" role="button">Find me a project!</a></p>
@@ -35,30 +35,29 @@ require('func.php');
       <div class="row">
         <div class="col-lg-6">
           <h4>Uploading</h4>
-          <p>If you're a good photographer or designer don't histate to upload your files (Wikimedia Commons only accepts free content).</p>
+          <p>If you're a good photographer or illustrator? Don't histate to <a href="https://commons.wikimedia.org/wiki/Commons:Uploading">upload your files</a> (Wikimedia Commons only accepts <a href="https://commons.wikimedia.org/wiki/COM:L">free content</a>).</p>
 	  <br>
           <h4>Editing</h4>
-          <p>Help with fixing broken pages and categorising files.</p>
+          <p>Help with <a href="https://commons.wikimedia.org/wiki/Commons:Categories">categorising</a> pages. There is a huge backlog at <a href="https://commons.wikimedia.org/wiki/Category:Media_needing_categories">Category:Media needing categories</a>.</p>
 	  <br>
           <h4>Maintenance</h4>
-          <p>There are a number of maintenance backlogs on commons which requiring attention.</p>
+          <p>There are a number of <a href="https://commons.wikimedia.org/wiki/Category:Commons_maintenance_content">maintenance backlogs</a> on commons which requiring attention.</p>
         </div>
 
         <div class="col-lg-6">
           <h4>Translating</h4>
-          <p>Wikimedia Commons is a <a href="https://commons.wikimedia.org/wiki/Commons:Language_policy" title="Commons:Language policy">multilingual project</a>. You can help with <a href="https://commons.wikimedia.org/wiki/Special:LanguageStats">translating pages</a> into a language other than English.</p>
+          <p>Wikimedia Commons is a <a href="https://commons.wikimedia.org/wiki/Commons:Language_policy" title="Commons:Language policy">multilingual project</a>. You can help with <a href="https://commons.wikimedia.org/wiki/Special:LanguageStats">translating pages</a> into a language other than English. For example: Help translating the <a href="https://commons.wikimedia.org/wiki/Template:Potd">picture of the day's description</a>.</p>
 	  <br>
-          <h4>????</h4>
-          <p>Nominate your Photos at the </p>
+          <h4>Vandalism</h4>
+          <p>Wikimedia Commons is a wiki which everione can edit. Help idenifing <a href="https://commons.wikimedia.org/wiki/COM:CVU">vandalism</a> and help with finding copyright violations.</p>.
 	  <br>
           <h4>Coding</h4>
-          <p>Help writing user scripts and tools.</p>
+          <p>Help <a href="https://commons.wikimedia.org/wiki/Commons:User_scripts">devloaping</a> user scripts & tools for the community.</p>
         </div>
       </div>
 	<br>
       <footer class="footer">
-        <small><hr><p><a href="https://github.com/wcidfwc/public_html">View source / Edit</a> | <a href="disclaimer.php">Disclaimer & Privacy</a> | Not officially affiliated with the 
-Wikimedia Foundation</p></small>
+        <small><hr><p><a href="https://github.com/wcidfwc/public_html">View source / Edit</a> | <a href="disclaimer.php">Lagal</a> | Not officially affiliated with the Wikimedia Foundation</p></small>
       </footer>
     </div>
   </body>

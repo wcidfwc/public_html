@@ -1,6 +1,6 @@
 # What can I do for Wikimedia Commons?
 
-This is the content of whatcanidoforwikimediacommons.org.
+This is the content of the whatcanidoforwikimediacommons.org script.
 
 There are also http://whatcanidoforwikimedia.org/ whch is maintained by other user(s). Inspiration taken from there and https://phabricator.wikimedia.org/T91633
 

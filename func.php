@@ -30,7 +30,7 @@ function start($name) {
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <meta name=\"robots\" content=\"noindex, nofollow\">
     <title>$name</title>
-    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">
+    <link href=\"/css/bootstrap.min.css\" rel=\"stylesheet\">
     <style>
       body {
         padding-top: 60px;
