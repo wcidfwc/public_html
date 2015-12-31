@@ -18,10 +18,11 @@ This page is hostet on <a href="http://tools.wikimedia.pl/">Wikimedia Polska's t
 <p>This page is not officially affiliated with the Wikimedia Foundation. It has been created and it is maintained by volonteers.</p>
 
 <h1>Privacy</h1>
-<p>The content is stored on servers in the United States of America. To protect your privacy we don't load scipts (js, css, ...) hosted on third party server.</p>
+<p>The content is stored on servers in the United States of America. To protect your privacy we don't load scipts (js, css, ...) from party server direcy.</p>
 
 <h2>Contact</h2>
 <p><b>E-Mail:</b> contact(at)whatcanidoforwikimediacommons.org</p>
+
 <h3>Contact persons</h3>
 * <a href="https://commons.wikimedia.org/wiki/User:-revi">Revi</a><br>
 * <a href="https://commons.wikimedia.org/wiki/User:Steinsplitter">Steinsplitter</a><br>
