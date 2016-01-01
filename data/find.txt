@@ -25,4 +25,5 @@ Help with ansvering questions at the [[Commons:Help_desk|help desk]]
 Familar with copyright? Contribute your legal knowledge at the [[Commons:Village_pump/Copyright|village pump copyright section]]
 Good photographer? Upload your files and nominate them for [[Commons:Quality_images|quality images]]
 Help [[Commons:Upload_tools#Commons_Helper|moving]] files from wikipedia to commons
-
+Help cleaning up [[Commons:Database_reports/Mistagged_non-free_files|mistagged non-free files]]
+Watch [[Special:Newimages|recent uploads]] and nominate [[Commons:How_to_detect_copyright_violations|copyvios]]  [[COM:SCOPE|out of scope]] files for deletion
