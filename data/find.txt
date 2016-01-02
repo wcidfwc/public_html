@@ -8,22 +8,22 @@ Help with [[Special:LanguageStats|translating]] pages
 Help with the identification of [[Category:Unidentified_subjects|unidentified subjects]]
 Create [[Special:WantedCategories|wanted categories]]
 [[Special:UploadWizard|Upload your photographs]]
-[[Template:Potd|Picture of the day's]] descripton needs a translation in other languages than english
-[[Template:Motd|Media of the day's]] descripton needs a translation in other languages than english
+[[Template:Potd|Picture of the day's]] description needs a translation in other languages than english
+[[Template:Motd|Media of the day's]] description needs a translation in other languages than english
 Help with [[Category:Unidentified_subjects|the identification]] of subjects
 Categorize [[Special:WantedCategories|pages]]
 Categorize [[Special:UncategorizedCategories|categories]]
 Add files to [[Special:ShortPages|short galleries]] or nominate them for deletion
-Some files [[Category:Media_missing_infobox_template|missing a infobox]], help with adding!
-Add desciptions to [[Category:Media_lacking_a_description|files whiteout]]
-Good technical scills? Help reducing the backlog at [[Commons:Batch_uploading|Commons:Batch uploading]]
+Some files [[Category:Media_missing_infobox_template|are missing an infobox]], help with adding!
+Add desciptions to [[Category:Media_lacking_a_description|files]]
+Good technical skills? Help reducing the backlog at [[Commons:Batch_uploading|Commons:Batch uploading]]
 [[Category:Files_moved_to_Commons_requiring_review|Files moved to Commons requiring review]]
 Help with fixing [[Category:Commons:Citing_errors|citing errors]]
 There are pages with [[Category:Pages_with_DEFAULTSORT_conflicts|DEFAULTSORT conflicts]]
-Help fixing the filedescripton page of [[Category:Files_with_no_machine-readable_license|files with no machine-readable license]]
+Help fixing the file description page of [[Category:Files_with_no_machine-readable_license|files with no machine-readable license]]
 Help with ansvering questions at the [[Commons:Help_desk|help desk]]
-Familar with copyright? Contribute your legal knowledge at the [[Commons:Village_pump/Copyright|village pump copyright section]]
+Familiar with copyright? Contribute your legal knowledge at the [[Commons:Village_pump/Copyright|village pump copyright section]]
 Good photographer? Upload your files and nominate them for [[Commons:Quality_images|quality images]]
 Help [[Commons:Upload_tools#Commons_Helper|moving]] files from wikipedia to commons
 Help cleaning up [[Commons:Database_reports/Mistagged_non-free_files|mistagged non-free files]]
-Watch [[Special:Newimages|recent uploads]] and nominate [[Commons:How_to_detect_copyright_violations|copyvios]]  [[COM:SCOPE|out of scope]] files for deletion
+Watch [[Special:Newimages|recent uploads]] and nominate [[Commons:How_to_detect_copyright_violations|copyvios]] and [[COM:SCOPE|out of scope]] files for deletion
