@@ -4,7 +4,7 @@ Improve, clean up, or color images at the [[Commons:Graphic_Lab|Graphic Lab]]
 [[Commons:QI|Nominate or vote]] for Quality images
 [[Category:Media_needing_categories|Add]] files to categories
 [[COM:Vandalism|Find and revert vandalism]] ([[Commons:Counter_Vandalism_Unit|Counter Vandalism Unit]])
-Help with [[Special:LanguageStats|translating|]] pages
+Help with [[Special:LanguageStats|translating]] pages
 Help with the identification of [[Category:Unidentified_subjects|unidentified subjects]]
 Create [[Special:WantedCategories|wanted categories]]
 [[Special:UploadWizard|Upload your photographs]]

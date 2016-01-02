@@ -1,5 +1,6 @@
 <?php
 require('func.php');
+counter();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +25,6 @@ require('func.php');
   <body>
 
     <div class="container">
-      <div class="bs-callout bs-callout-danger" id="callout-input-needs-type"> <h4>This is a draft!</h4> <p>This page is a work in progress page.</p> </div>
       <div class="jumbotron" style = "text-align:center;">
 	<p style="float:left;"><img src="pdata/Commons-logo.png" alt="Wikimedia Commons community logo"></p>
 	<h2 style="margin-top:30px;">What can I do for Wikimedia Commons?</h2>
