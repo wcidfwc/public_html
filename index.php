@@ -9,14 +9,16 @@ counter();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>What can I do for Wikimedia Commons?</title>
-    <meta name="robots" content="nofollow" />
+    <meta name="keywords" content="Commons,Wikimedia,Community,Uploading,Programming,Editing,Content,Files,Wiki">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="What can I do for Wikimedia Commons?">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px;
       }
-	footer{
-	bottom:0;
+      footer {
+        bottom:0;
 	width:100%;
       }
     </style>
