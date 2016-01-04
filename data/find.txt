@@ -1,6 +1,6 @@
 Improve, clean up, or color images at the [[Commons:Graphic_Lab|Graphic Lab]]
-[[Category:Categories_requiring_diffusion|Moveing files into relevant subcategories]]
-[[Commons:Featured picture candidates|Nominate or vote]] for Featured Pictures
+[[Category:Categories_requiring_diffusion|Moving files into relevant subcategories]]
+[[Commons:Featured_picture_candidates|Nominate or vote]] for Featured Pictures
 [[Commons:QI|Nominate or vote]] for Quality images
 [[Category:Media_needing_categories|Add]] files to categories
 [[COM:Vandalism|Find and revert vandalism]] ([[Commons:Counter_Vandalism_Unit|Counter Vandalism Unit]])
