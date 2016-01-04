@@ -43,7 +43,7 @@ counter();
           <p>Help with <a href="https://commons.wikimedia.org/wiki/Commons:Categories">categorising</a> pages. There is a huge backlog at <a href="https://commons.wikimedia.org/wiki/Category:Media_needing_categories">Category:Media needing categories</a>.</p>
 	  <br>
           <h4>Maintenance</h4>
-          <p>There are a number of <a href="https://commons.wikimedia.org/wiki/Category:Commons_maintenance_content">maintenance backlogs</a> on commons which requiring attention.</p>
+          <p>There are a number of <a href="https://commons.wikimedia.org/wiki/Category:Commons_maintenance_content">maintenance backlogs</a> on commons requiring attention.</p>
         </div>
 
         <div class="col-lg-6">
@@ -51,7 +51,7 @@ counter();
           <p>Wikimedia Commons is a <a href="https://commons.wikimedia.org/wiki/Commons:Language_policy" title="Commons:Language policy">multilingual project</a>. You can help with <a href="https://commons.wikimedia.org/wiki/Special:LanguageStats">translating pages</a> into a language other than English. For example: Help translating the <a href="https://commons.wikimedia.org/wiki/Template:Potd">picture of the day's description</a>.</p>
 	  <br>
           <h4>Vandalism</h4>
-          <p>Wikimedia Commons is a wiki which everyone can edit. Help identifying <a href="https://commons.wikimedia.org/wiki/COM:CVU">vandalism</a> and help with detecting <a href="https://commons.wikimedia.org/wiki/Commons:How_to_detect_copyright_violations">copyright violations.</a></p>.
+          <p>Wikimedia Commons is a wiki which everyone can edit. Help identifying <a href="https://commons.wikimedia.org/wiki/COM:CVU">vandalism</a> and detecting <a href="https://commons.wikimedia.org/wiki/Commons:How_to_detect_copyright_violations">copyright violations.</a></p>.
 	  <br>
           <h4>Coding</h4>
           <p>Help <a href="https://commons.wikimedia.org/wiki/Commons:User_scripts">developing</a> user scripts & tools for the community.</p>
