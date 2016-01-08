@@ -54,7 +54,7 @@ counter();
           <p>Wikimedia Commons is a wiki which everyone can edit. Help identifying <a href="https://commons.wikimedia.org/wiki/COM:CVU">vandalism</a> and detecting <a href="https://commons.wikimedia.org/wiki/Commons:How_to_detect_copyright_violations">copyright violations.</a></p>.
 	  <br>
           <h4>Coding</h4>
-          <p>Help <a href="https://commons.wikimedia.org/wiki/Commons:User_scripts">developing</a> user scripts & tools for the community.</p>
+          <p>Help <a href="https://commons.wikimedia.org/wiki/Commons:User_scripts">developing</a> user scripts & tools for the community, or tackle some related <a href="https://phabricator.wikimedia.org/tag/commons/">MediaWiki bugs</a>.</p>
         </div>
       </div>
 	<br>
