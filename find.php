@@ -16,7 +16,7 @@ aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a> <strong>New at Wik
 }
 ?>
       <div class="jumbotron">
-	<h2><?php par() ?></h2>
+	<h2><?php par('data/find.txt') ?></h2>
 	<br><br>
         <p>
           <a class="btn btn-lg btn-primary" href="find.php?nextid=<?php echo rand(111, 99999); ?>" role="button"><?php nb() ?> &raquo;</a>

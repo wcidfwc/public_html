@@ -7,8 +7,8 @@ $next = preg_replace("/[\n\r]/","", $text);
 echo "$next";
 }
 
-function par() {
-$find = file('data/find.txt');
+function par($loc) {
+$find = file($loc);
 shuffle($find);
 $text = $find[0];
 $wiki = array("[[", "|", "]]");
