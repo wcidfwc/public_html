@@ -13,6 +13,8 @@ counter();
     <meta name="robots" content="index,follow">
     <meta name="description" content="What can I do for Wikimedia Commons?">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="pdata/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="pdata/favicon.ico" type="image/x-icon">
     <style>
       body {
         padding-top: 60px;
