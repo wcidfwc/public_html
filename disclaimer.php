@@ -15,11 +15,11 @@ start("Legal stuff")
 This page is hosted on <a href="http://tools.wikimedia.pl/">Wikimedia Polska's toolserver</a> (thanks!).
 
 <h1>Disclaimer</h1>
-<p>This page is not officially affiliated with the Wikimedia Foundation. It has been created and maintained by volonteers. The Wikimedia Foundation trademark departent is aware abot 
+<p>This page is not officially affiliated with the Wikimedia Foundation. It has been created and maintained by volunteers. The Wikimedia Foundation trademark department is aware of 
 this page.</p>
 
 <h1>Privacy</h1>
-<p>To protect your privacy we don't load scipts (js, css, ...) from third party server directly.</p>
+<p>To protect your privacy we don't load scipts (JS, CSS, ...) from third party servers directly.</p>
 
 <h2>Contact</h2>
 <p><b>E-Mail:</b> contact(at)whatcanidoforwikimediacommons.org</p>
