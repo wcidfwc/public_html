@@ -10,6 +10,4 @@ You are invited to contribute :-) By contributing you release your codes into th
 
 # Edit
 * Mainpage: index.php
-* Random text: /data/find.txt
-* Next button: /data/next.txt
-* (....)
+* Random/Next button/Translations: translations.php
