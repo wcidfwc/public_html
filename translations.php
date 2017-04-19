@@ -30,7 +30,8 @@ if($_GET["lang"] == "xxx") {
   $i18nTsource = "View source / Edit";
   $i18nTlegal = "Legal";
   $i18nTlegal2 = "Not officially affiliated with the Wikimedia Foundation";
-  $i18nThome = "Home";
+  $i18nThome = "Home"
+  $i18nThomehelp = "This pags shows random stuff/tasks which you can do for Wikimedia Commons.<br><br> If you are looking for a general overview you can take a look at [[https://commons.wikimedia.org/wiki/Commons:Welcome|Commons:Welcome]] and [[https://commons.wikimedia.org/wiki/Commons:Community_portal|Commons:Community portal]].";
   $i18nTback = "Back";
   $i18nThelp = "Help";
   $i18nThelp1 = "This pags shows random stuff/tasks which you can do for Wikimedia Commons.";

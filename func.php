@@ -22,7 +22,7 @@ return $curid;
 
 function wikify($w2t) {
 $wiki = array("[[", "|", "]]");
-$html = array("<a href = \"", "\">", "</a>");
+$html = array("<a href = \"https://commons.wikimedia.org/wiki/", "\">", "</a>");
 $htmlback = str_replace($wiki, $html, $w2t);
 return $htmlback;
 }
@@ -68,11 +68,5 @@ $wx[0] ++;
 $fp = fopen( $fl , "w" );
 fputs( $fp , "$wx[0]" );
 fclose( $fp );
-}
-
-function help($text) {
-if(isset($_GET['help'])) {
-    echo "$text";
-}
 }
 ?>

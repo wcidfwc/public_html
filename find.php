@@ -1,13 +1,40 @@
 <?php
 require('func.php');
-start("What can I do for Wikimedia Commons?");
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?php i18n( $i18nTtitle ); ?></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="pdata/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="pdata/favicon.ico" type="image/x-icon">
+	<style>
+      body {
+        padding-top: 60px;
+	 background-color: transparent;
+      }
+      footer {
+        bottom: 0;
+	width: 100%;
+      }
+	</style>
+  </head>
+
+  <body>
+
+    <div class="container">
 
 <?php
 echo "<h2>"; i18n( $i18nTtitle ); echo "</h2>";
 if ( isset( $_GET['new'] ) && !empty( $_GET['new'] ) ) {
-echo "<div class=\"alert alert-warning alert-dismissible fade in\" role=\"alert\"> <a href=\"find.php?nextid=0\" type=\"button\" class=\"close\" 
-aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a> <strong>New at Wikimedia Commons?</strong> You should probably read <a href=\"https://commons.wikimedia.org/wiki/Commons:Welcome\">Commons:Welcome</a> first! :-)</div>";
+echo "<div class=\"alert alert-warning alert-dismissible fade in\" role=\"alert\"> <a href=\"find.php?nextid=rand&uselang="; i18n($i18nTlang); echo"\" type=\"button\" class=\"close\" 
+aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a>";
+i18n( $i18nTnewac );
+echo "</div>";
 }
 ?>
       <div class="jumbotron">
@@ -17,11 +44,16 @@ aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a> <strong>New at Wik
           <a class="btn btn-lg btn-primary" href="find.php?curid=<?php $larrand = array_rand($i18nTwcidq); echo $larrand; echo "&rid="; echo rand(200, 9876); ?>" role="button"><?php $arrand = array_rand($i18nTwcidq); echo $i18nTwcidq[$arrand];  ?> &raquo;</a>
         </p>
       </div>
-	<small><div style = "float: left;"><a href="index.php?uselang=<?php i18n( $i18nTlang ); ?>">home</a> | <a href="javascript:history.back()">back</a></div> <div style="text-align: 
-right;"><?php help("<span class=\"caret\"></span> "); ?><a href="find.php?help&uselang=<?php i18n( $i18nTlang ); help("back"); ?>">help</a></div></small>
-    <?php help("<br><div class=\"alert alert-info alert-dismissible fade in\" role=\"alert\"> <a href=\"find.php\" type=\"button\" class=\"close\" 
-aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a> <strong>Help</strong><br>This pags shows random stuff/tasks which you can do for Wikimedia Commons.<br><br>
-    If you are looking for a general overview you can take a look at <a href=\"https://commons.wikimedia.org/wiki/Commons:Welcome\">Commons:Welcome</a> and <a href=\"https://commons.wikimedia.org/wiki/Commons:Community_portal\">Commons:Community portal</a>.</div>");
+	<small><div style = "float: left;"><a href="index.php?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( strtolower($i18nThome) ); ?></a> | <a href="javascript:history.back()"><?php 
+i18n( strtolower($i18nTback) ); ?></a> | <a href="find.php?help&uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( strtolower($i18nThelp) ); ?></a></div></small>
+    <?php if(isset($_GET['help'])) {
+    echo "<br><div class=\"alert alert-info alert-dismissible fade in\" role=\"alert\"> <a href=\"find.php?uselang=";
+    i18n( $i18nTlang );
+    echo "\" type=\"button\" class=\"close\" aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a> <strong>";
+    i18n($i18nThome);
+    echo "</strong><br>";
+    i18n($i18nThomehelp); 
+    }
     echo "</div>"; 
     footer()
 ?>
