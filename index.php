@@ -32,8 +32,8 @@ counter();
       <div class="jumbotron" style = "text-align:center;">
 	<p style="float:left;"><img src="pdata/Commons-logo.png" alt="Wikimedia Commons community logo"></p>
 	<h2 style="margin-top:30px;"><?php i18n( $i18nTtitle ); ?></h2>
-	<?php i18n( $i18nTintro ); ?> | <a href="https://commons.wikimedia.org/wiki/Commons:Welcome"><?php i18n( $i18nTwis ); ?></a><br><br>
-        <p><a class="btn btn-lg btn-success" href="find.php?new=yes" role="button"><?php i18n( $i18nTfind ); ?></a></p>
+	<?php i18n( $i18nTintro ); ?> | <a href="https://commons.wikimedia.org/wiki/Commons:Welcome?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( $i18nTwis ); ?></a><br><br>
+        <p><a class="btn btn-lg btn-success" href="find.php?new=yes&uselang=<?php i18n( $i18nTlang ); ?>" role="button"><?php i18n( $i18nTfind ); ?></a></p>
       </div>
 
       <div class="row">
@@ -61,8 +61,9 @@ counter();
       </div>
 	<br>
       <footer class="footer">
-        <small><hr><p><a href="https://github.com/wcidfwc/public_html"><?php i18n( $i18nTsource ); ?></a> | <a href="disclaimer.php"><?php i18n( $i18nTlegal ); ?></a> | <?php i18n( 
-$i18nTlegal2 ); ?> | <?php i18n( $i18nTiol ); echo ": "; i18n( $allanguages ); ?></p></small>
+        <small><hr><p><a href="https://github.com/wcidfwc/public_html"><?php i18n( $i18nTsource ); ?></a> | <a href="disclaimer.php?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( 
+$i18nTlegal ); 
+?></a> | <?php i18n( $i18nTlegal2 ); ?> | <?php i18n( $i18nTiol ); echo ": "; i18n( $allanguages ); ?></p></small>
       </footer>
     </div>
   </body>

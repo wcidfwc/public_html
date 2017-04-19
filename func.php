@@ -9,12 +9,22 @@ $htmlback = str_replace($wiki, $html, $text);
 echo $htmlback;
 }
 
-function nb() {
-$find = file('data/next.txt');
-shuffle($find);
-$text = $find[0];
-$next = preg_replace("/[\n\r]/","", $text);
-echo "$next";
+function curid() {
+$fastr = $_GET["curid"];
+$repl = preg_replace("/[^a-zA-Z0-9]/", "", $fastr);
+  if (is_numeric($repl)) {
+	$curid = $repl;
+    } else {
+	$curid = rand(1,5);
+  }
+return $curid;
+}
+
+function wikify($w2t) {
+$wiki = array("[[", "|", "]]");
+$html = array("<a href = \"", "\">", "</a>");
+$htmlback = str_replace($wiki, $html, $w2t);
+return $htmlback;
 }
 
 function par($loc) {
