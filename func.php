@@ -1,4 +1,14 @@
 <?php
+include "translations.php";
+
+function i18n($translation) {
+$text = $translation;
+$wiki = array("[[", "|", "]]");
+$html = array("<a href = \"", "\">", "</a>");
+$htmlback = str_replace($wiki, $html, $text);
+echo $htmlback;
+}
+
 function nb() {
 $find = file('data/next.txt');
 shuffle($find);
