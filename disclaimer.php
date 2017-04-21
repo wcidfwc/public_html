@@ -24,7 +24,7 @@ This page is hosted on <a href="http://tools.wikimedia.pl/">Wikimedia Polska's t
 If you have questions, please contact one of our contact persons.<br>
 
 <h3>Contact persons</h3>
-* <a href="https://commons.wikimedia.org/wiki/User:-revi">Revi</a> <small>revi(at)pobox(dot)com</small><br>
+* <a href="https://commons.wikimedia.org/wiki/User:-revi">revi</a> <small>wiki(at)ymhong(dot)com</small><br>
 * <a href="https://commons.wikimedia.org/wiki/User:Steinsplitter">Steinsplitter</a> <small>steinsplitter(at)wikipedia(dot)de</small><br>
 * <a href="https://commons.wikimedia.org/wiki/User:Zhuyifei1999">Zhuyifei1999</a><br>
 <br>
