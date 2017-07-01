@@ -11,14 +11,11 @@ start("Legal stuff")
     </nav>
 <a type="button" href="index.php?uselang=<?php i18n( $i18nTlang ); ?>" class="btn btn-default">Home</a>
 
-<h1>Thanks</h1>
-This page is hosted on <a href="http://tools.wikimedia.pl/">Wikimedia Polska's toolserver</a>.
-
 <h1>Disclaimer</h1>
 <p>This page is not officially affiliated with the Wikimedia Foundation. It has been created and maintained by volunteers. The Wikimedia Foundation trademark department is aware of this page.</p>
 
 <h1>Privacy</h1>
-<p>To protect your privacy we don't load scipts (JS, CSS, ...) from third party servers directly.</p>
+<p>To protect your privacy we don't load scipts (JS, CSS, ...) from non-wikimedia/labs servers directly.</p>
 
 <h2>Contact</h2>
 If you have questions, please contact one of our contact persons.<br>
