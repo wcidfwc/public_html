@@ -30,7 +30,7 @@ counter();
 
     <div class="container">
       <div class="jumbotron" style = "text-align:center;">
-	<p style="float:left;"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/200px-Commons-logo.svg.png" alt="Wikimedia Commons community logo"></p>
+	<p style="float:left;"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/110px-Commons-logo.svg.png" alt="Wikimedia Commons community logo"></p>
 	<h2 style="margin-top:30px;"><?php i18n( $i18nTtitle ); ?></h2>
 	<?php i18n( $i18nTintro ); ?> | <a href="https://commons.wikimedia.org/wiki/Commons:Welcome?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( $i18nTwis ); ?></a><br><br>
         <p><a class="btn btn-lg btn-success" href="find.php?new=yes&uselang=<?php i18n( $i18nTlang ); ?>" role="button"><?php i18n( $i18nTfind ); ?></a></p>
