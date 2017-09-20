@@ -72,15 +72,15 @@ if($_GET["lang"] == "xxx") {
   );
 
   $i18nTwcidq = array(
-    "Nope",
-    "Next, please",
-    "Next",
-    "Nah",
-    "Show me a new one",
-    "Next…",
-    "Boring",
-    "No, thanks",
-    "Another one, please"
+    "না",
+    "পরবর্তী",
+    "পরবর্তী",
+    "না",
+    "নতুন একটি দেখানো হোক",
+    "পরবর্তী…",
+    "বিরক্তিকর",
+    "না, ধন্যবাদ",
+    "দয়া করে, আর একটি"
   );
   
 }
