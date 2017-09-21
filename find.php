@@ -3,7 +3,7 @@ require('func.php');
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,7 +41,7 @@ echo "</div>";
 	<h2><?php $thiscurid = curid(); $ret = $i18nTwcid[$thiscurid]; echo wikify($ret); ?></h2>
 	<br><br>
         <p>
-          <a class="btn btn-lg btn-primary" href="find.php?curid=<?php $larrand = array_rand($i18nTwcidq); echo $larrand; echo "&rid="; echo rand(200, 9876); ?>" role="button"><?php $arrand = array_rand($i18nTwcidq); echo $i18nTwcidq[$arrand];  ?> &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="find.php?uselang=<?php i18n( $i18nTlang ); ?>&curid=<?php $larrand = array_rand($i18nTwcidq); echo $larrand; echo "&rid="; echo rand(200, 9876); ?>" role="button"><?php $arrand = array_rand($i18nTwcidq); echo $i18nTwcidq[$arrand];  ?> &raquo;</a>
         </p>
       </div>
 	<small><div style = "float: left;"><a href="index.php?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( strtolower($i18nThome) ); ?></a> | <a href="javascript:history.back()"><?php 
