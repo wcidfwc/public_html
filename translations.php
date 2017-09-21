@@ -4,11 +4,12 @@ TRANSLATION FILE
 This file contais the transations for the tool.
 Please stick on the exact format.
 */
-$allanguages = "[[?uselang=bn|bn]] | [[?uselang=bn|বাংলা]]";
+$allanguages = "[[?uselang=en|en]] • [[?uselang=bn|বাংলা]]";
 
 if($_GET["uselang"] == "xxx") {
-  //translations for english (=source text)
+  
 } else if($_GET["uselang"] == "bn") {
+  // Translation by [[User:NahidSultan]]
   $i18nTlang = "bn";
   $i18nTlangname = "বাংলা";
   $i18nTtitle = "উইকিমিডিয়া কমন্সের জন্য আমি কি করতে পারি?";
