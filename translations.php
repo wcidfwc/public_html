@@ -4,7 +4,7 @@ TRANSLATION FILE
 This file contais the transations for the tool.
 Please stick on the exact format.
 */
-$allanguages = "[[?uselang=en|en]] • [[?uselang=bn|বাংলা]]";
+$allanguages = "[[?uselang=en|en]] • [[?uselang=bn|বাংলা]] • [[?uselang=mr|mr]]";
 
 if($_GET["uselang"] == "xxx") {
   
