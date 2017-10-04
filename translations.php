@@ -8,7 +8,7 @@ $allanguages = "[[?uselang=en|en]] • [[?uselang=bn|বাংলা]]";
 
 if($_GET["uselang"] == "xxx") {
   
-} else if($_GET["uselang"] == "bn") {
+} else if($_GET["uselang"] == "mr") {
   // Translation by [[User:Tiven2240]]
  $i18nTlang = "mr";
  $i18nTlangname = "Marathi";
