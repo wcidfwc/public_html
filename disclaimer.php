@@ -21,8 +21,8 @@ start("Legal stuff")
 If you have questions, please contact one of our contact persons.<br>
 
 <h3>Contact persons</h3>
-* <a href="https://commons.wikimedia.org/wiki/User:-revi">revi</a> <small>wiki(at)ymhong(dot)com</small><br>
-* <a href="https://commons.wikimedia.org/wiki/User:Steinsplitter">Steinsplitter</a> <small>steinsplitter(at)wikipedia(dot)de</small><br>
+* <a href="https://commons.wikimedia.org/wiki/User:-revi">revi</a> <small>wiki<span style="margin:0px 1px; position:relative; top:-2px;"><img alt="@" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/11px-At_char.svg.png" title="@" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/17px-At_char.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/22px-At_char.svg.png 2x" data-file-width="10" data-file-height="10" height="11" width="11"></span>ymhong.com</small><br>
+* <a href="https://commons.wikimedia.org/wiki/User:Steinsplitter">Steinsplitter</a> <small>steinsplitter<span style="margin:0px 1px; position:relative; top:-2px;"><img alt="@" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/11px-At_char.svg.png" title="@" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/17px-At_char.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/At_char.svg/22px-At_char.svg.png 2x" data-file-width="10" data-file-height="10" height="11" width="11"></span>wikipedia.de</small><br>
 * <a href="https://commons.wikimedia.org/wiki/User:Zhuyifei1999">Zhuyifei1999</a><br>
 <br>
 <br>
