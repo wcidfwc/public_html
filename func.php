@@ -2,39 +2,39 @@
 include "translations.php";
 
 function i18n($translation) {
-$text = $translation;
-$wiki = array("[[", "|", "]]");
-$html = array("<a href = \"", "\">", "</a>");
-$htmlback = str_replace($wiki, $html, $text);
-echo $htmlback;
+  $text = $translation;
+  $wiki = array("[[", "|", "]]");
+  $html = array("<a href = \"", "\">", "</a>");
+  $htmlback = str_replace($wiki, $html, $text);
+  echo $htmlback;
 }
 
 function curid() {
-$fastr = $_GET["curid"];
-$repl = preg_replace("/[^a-zA-Z0-9]/", "", $fastr);
-  if (is_numeric($repl)) {
-	$curid = $repl;
+  $fastr = $_GET["curid"];
+  $repl = preg_replace("/[^a-zA-Z0-9]/", "", $fastr);
+    if (is_numeric($repl)) {
+      $curid = $repl;
     } else {
-	$curid = rand(1,5);
-  }
-return $curid;
+      $curid = rand(1,5);
+    }
+  return $curid;
 }
 
 function wikify($w2t) {
-$wiki = array("[[", "|", "]]");
-$html = array("<a href = \"https://commons.wikimedia.org/wiki/", "\">", "</a>");
-$htmlback = str_replace($wiki, $html, $w2t);
-return $htmlback;
+  $wiki = array("[[", "|", "]]");
+  $html = array("<a href = \"https://commons.wikimedia.org/wiki/", "\">", "</a>");
+  $htmlback = str_replace($wiki, $html, $w2t);
+  return $htmlback;
 }
 
 function par($loc) {
-$find = file($loc);
-shuffle($find);
-$text = $find[0];
-$wiki = array("[[", "|", "]]");
-$html = array("<a href = \"https://commons.wikimedia.org/wiki/", "\">", "</a>");
-$rand = str_replace($wiki, $html, $text);
-echo "$rand";
+  $find = file($loc);
+  shuffle($find);
+  $text = $find[0];
+  $wiki = array("[[", "|", "]]");
+  $html = array("<a href = \"https://commons.wikimedia.org/wiki/", "\">", "</a>");
+  $rand = str_replace($wiki, $html, $text);
+  echo "$rand";
 }
 
 function footer() {
@@ -62,11 +62,11 @@ function start($name) {
 }
 
 function counter() {
-$fl = ( "counter.txt" );
-$wx = file( $fl );
-$wx[0] ++;
-$fp = fopen( $fl , "w" );
-fputs( $fp , "$wx[0]" );
-fclose( $fp );
+  $fl = ( "counter.txt" );
+  $wx = file( $fl );
+  $wx[0] ++;
+  $fp = fopen( $fl , "w" );
+  fputs( $fp , "$wx[0]" );
+  fclose( $fp );
 }
 ?>

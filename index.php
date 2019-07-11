@@ -21,7 +21,7 @@ counter();
       }
       footer {
         bottom: 0;
-	width: 100%;
+  width: 100%;
       }
     </style>
   </head>
@@ -30,9 +30,9 @@ counter();
 
     <div class="container">
       <div class="jumbotron" style = "text-align:center;">
-	<p style="float:left;"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/110px-Commons-logo.svg.png" alt="Wikimedia Commons community logo"></p>
-	<h2 style="margin-top:30px;"><?php i18n( $i18nTtitle ); ?></h2>
-	<?php i18n( $i18nTintro ); ?> | <a href="https://commons.wikimedia.org/wiki/Commons:Welcome?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( $i18nTwis ); ?></a><br><br>
+  <p style="float:left;"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/110px-Commons-logo.svg.png" alt="Wikimedia Commons community logo"></p>
+  <h2 style="margin-top:30px;"><?php i18n( $i18nTtitle ); ?></h2>
+  <?php i18n( $i18nTintro ); ?> | <a href="https://commons.wikimedia.org/wiki/Commons:Welcome?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( $i18nTwis ); ?></a><br><br>
         <p><a class="btn btn-lg btn-success" href="find.php?new=yes&uselang=<?php i18n( $i18nTlang ); ?>" role="button"><?php i18n( $i18nTfind ); ?></a></p>
       </div>
 
@@ -40,10 +40,10 @@ counter();
         <div class="col-lg-6">
           <h4><?php i18n( $i18nTmp1 ); ?></h4>
           <p><?php i18n( $i18nTmp1txt ); ?></p>
-	  <br>
+    <br>
           <h4><?php i18n( $i18nTmp2 ); ?></h4>
           <p><?php i18n( $i18nTmp2txt ); ?></p>
-	  <br>
+    <br>
           <h4><?php i18n( $i18nTmp3 ); ?></h4>
           <p><?php i18n( $i18nTmp3txt ); ?></p>
         </div>
@@ -51,15 +51,15 @@ counter();
         <div class="col-lg-6">
           <h4><?php i18n( $i18nTmp4 ); ?></h4>
           <p><?php i18n( $i18nTmp4txt ); ?></p>
-	  <br>
+    <br>
           <h4><?php i18n( $i18nTmp5 ); ?></h4>
           <p><?php i18n( $i18nTmp5txt ); ?></p>
-	  <br>
+    <br>
           <h4><?php i18n( $i18nTmp6 ); ?></h4>
           <p><?php i18n( $i18nTmp6txt ); ?></p>
         </div>
       </div>
-	<br>
+  <br>
       <footer class="footer">
         <small><hr><p><a href="https://github.com/wcidfwc/public_html"><?php i18n( $i18nTsource ); ?></a> | <a href="disclaimer.php?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( 
 $i18nTlegal ); 
