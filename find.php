@@ -12,16 +12,16 @@ require('func.php');
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="pdata/favicon.ico" type="image/x-icon">
     <link rel="icon" href="pdata/favicon.ico" type="image/x-icon">
-	<style>
+  <style>
       body {
         padding-top: 60px;
-	 background-color: transparent;
+   background-color: transparent;
       }
       footer {
         bottom: 0;
-	width: 100%;
+  width: 100%;
       }
-	</style>
+  </style>
   </head>
 
   <body>
@@ -38,13 +38,13 @@ echo "</div>";
 }
 ?>
       <div class="jumbotron">
-	<h2><?php $thiscurid = curid(); $ret = $i18nTwcid[$thiscurid]; echo wikify($ret); ?></h2>
-	<br><br>
+  <h2><?php $thiscurid = curid(); $ret = $i18nTwcid[$thiscurid]; echo wikify($ret); ?></h2>
+  <br><br>
         <p>
           <a class="btn btn-lg btn-primary" href="find.php?uselang=<?php i18n( $i18nTlang ); ?>&curid=<?php $larrand = array_rand($i18nTwcidq); echo $larrand; echo "&rid="; echo rand(200, 9876); ?>" role="button"><?php $arrand = array_rand($i18nTwcidq); echo $i18nTwcidq[$arrand];  ?> &raquo;</a>
         </p>
       </div>
-	<small><div style = "float: left;"><a href="index.php?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( strtolower($i18nThome) ); ?></a> | <a href="javascript:history.back()"><?php 
+  <small><div style = "float: left;"><a href="index.php?uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( strtolower($i18nThome) ); ?></a> | <a href="javascript:history.back()"><?php 
 i18n( strtolower($i18nTback) ); ?></a> | <a href="find.php?help&uselang=<?php i18n( $i18nTlang ); ?>"><?php i18n( strtolower($i18nThelp) ); ?></a></div></small>
     <?php if(isset($_GET['help'])) {
     echo "<br><div class=\"alert alert-info alert-dismissible fade in\" role=\"alert\"> <a href=\"find.php?uselang=";
